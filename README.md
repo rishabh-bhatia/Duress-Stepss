@@ -15,7 +15,7 @@ The project was designed to not only meet the core requirements but also to show
 ## Screenshots
 
 ```markdown
-![Sample UI](./docs/images/stepscounted.png)
+![Sample UI](/docs/images/stepscounted.png)
 ```
 
 ## Architecture: Package-by-Feature with a Shared Core
