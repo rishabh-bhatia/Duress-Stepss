@@ -54,9 +54,6 @@ The project includes a multi-layered and comprehensive testing strategy to ensur
 
 ## Screenshots
 
-### Main Screen
-![Sample UI](/docs/images/stepscounted.png)
-
 ### Unit Tests
 ![Unit Test Results](/docs/images/unittests.png)
 
@@ -65,3 +62,6 @@ The project includes a multi-layered and comprehensive testing strategy to ensur
 
 ### UI Tests
 ![UI Test Results](/docs/images/uitests.png)
+
+### Main Screen
+![Sample UI](/docs/images/stepscounted.png)
