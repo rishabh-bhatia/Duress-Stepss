@@ -55,6 +55,6 @@ The project includes a multi-layered and comprehensive testing strategy to ensur
 
 -   **Sensor Availability**: The app relies exclusively on the `TYPE_STEP_COUNTER` sensor. It does not attempt to fall back to the accelerometer or other sensors to derive step counts, as per the challenge requirements.
 -   **Emulator Support**: As noted above, the app's core functionality cannot be tested on an emulator that lacks a virtual step counter sensor.
--   **Background Operation**: The app persists data every minute while it is in the foreground. For a production app that needs to track steps when the app is not open, a `ForegroundService` would be implemented, but that was deemed outside the scope of this task.
+-   **Background Operation**: The app persists data every minute while it is open. For an app that needs to track steps when the app is not open, a `ForegroundService` would be implemented to ensure the sensor listener runs continuously, but that was deemed outside the scope of this task.
 -   **Data Retrieval**: The requirements specified that data should be persisted to the database, but did not include any features for displaying or using that historical data in the UI. Therefore, the app does not load the persisted data back into the UI. The data is saved as required, and the database integration is verified via integration tests.
 
