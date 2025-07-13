@@ -12,20 +12,6 @@ The project was designed to not only meet the core requirements but also to show
 -   **1-Minute Data Persistence**: A background task saves the current step count to a local Room database every minute.
 -   **Optional Reset Functionality**: Includes a "Reset" button for testing and demonstration purposes.
 
-## Screenshots
-
-### Main Screen
-![Sample UI](/docs/images/stepscounted.png) 
-
-### Unit Tests
-![Unit Test Results](/docs/images/unittests.png)
-
-### Integration Tests
-![Integration Test Results](/docs/images/integrationtest.png)
-
-### UI Tests
-![UI Test Results](/docs/images/uitests.png)
-
 ## Architecture:
 
 A key architectural decision was to structure the application using a **package-by-feature** approach.
@@ -66,3 +52,16 @@ The project includes a multi-layered and comprehensive testing strategy to ensur
 -   **Background Operation**: The app persists data every minute while it is open. For an app that needs to track steps when the app is not open, a `ForegroundService` would be implemented to ensure the sensor listener runs continuously, but that was deemed outside the scope of this task.
 -   **Data Retrieval**: The requirements specified that data should be persisted to the database, but did not include any features for displaying or using that historical data in the UI. Therefore, the app does not load the persisted data back into the UI. The data is saved as required, and the database integration is verified via integration tests.
 
+## Screenshots
+
+### Main Screen
+![Sample UI](/docs/images/stepscounted.png)
+
+### Unit Tests
+![Unit Test Results](/docs/images/unittests.png)
+
+### Integration Tests
+![Integration Test Results](/docs/images/integrationtest.png)
+
+### UI Tests
+![UI Test Results](/docs/images/uitests.png)
