@@ -38,8 +38,8 @@ This architecture demonstrates a forward-thinking approach, building for a futur
 
 The project includes a multi-layered and comprehensive testing strategy to ensure code quality and correctness:
 
--   **Unit Tests (JVM)**: Located in `app/src/test`, these validate the logic of individual classes/methods (ViewModel, Use Cases).
--   **Integration Tests (Android)**: Located in `app/src/androidTest`, these verify the interaction between components, specifically testing the Room `StepCountDao` to ensure database operates as expected.
+-   **Unit Tests (JVM)**: Located in `app/src/test`, these validate the logic of individual classes (ViewModel, Use Cases) in isolation.
+-   **Integration Tests (Android)**: Located in `app/src/androidTest`, these verify the interaction between components, specifically testing the Room `StepCountDao` to ensure database operations are flawless.
 -   **UI Tests (Android)**: Also in `app/src/androidTest`, these confirm that the UI correctly reflects the state from the ViewModel and that user interactions work as expected. We use `testTag`s to identify UI components, which is a best practice for creating robust and maintainable UI tests.
 
 ## Setup and Running the App
