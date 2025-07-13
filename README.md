@@ -14,10 +14,11 @@ The project was designed to not only meet the core requirements but also to show
 
 ## Screenshots
 
-![Sample UI](/docs/images/stepscounted.png)
-![Unit Test Results](/docs/images/unittests.png)
-![Integration Test Results](/docs/images/integrationtest.png)
-![UI Test Results](/docs/images/uitests.png)
+| Main Screen | Unit Tests |
+| :---: | :---: |
+| ![Sample UI](/docs/images/stepscounted.png) | ![Unit Test Results](/docs/images/unittests.png) |
+| **Integration Tests** | **UI Tests** |
+| ![Integration Test Results](/docs/images/integrationtest.png) | ![UI Test Results](/docs/images/uitests.png) |
 
 ## Architecture: Package-by-Feature with a Shared Core
 
