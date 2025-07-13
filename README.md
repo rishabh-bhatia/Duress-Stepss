@@ -23,7 +23,7 @@ This architecture demonstrates a forward-thinking approach, building for a futur
 
 ## Technology Stack
 
--   **UI**:Jetpack Compose with a single-activity architecture.
+-   **UI**: Built using Jetpack Compose with a single-activity architecture.
 -   **Async tasks**: Kotlin Coroutines and Flow for all background work.
 -   **Dependency Injection**: Hilt.
 -   **Storage**: Room Database.
@@ -34,7 +34,7 @@ The project includes a multi-layered and comprehensive testing strategy to ensur
 
 -   **Unit Tests (JVM)**: Located in `app/src/test`, these validate the logic of individual classes (ViewModel, Use Cases) in isolation.
 -   **Integration Tests (Android)**: Located in `app/src/androidTest`, these verify the interaction between components, specifically testing the Room `StepCountDao` to ensure database operations are flawless.
--   **UI Tests (Android)**: Also in `app/src/androidTest`, these confirm that the UI correctly reflects the state from the ViewModel and that user interactions work as expected. We use `testTag`s to identify UI components, which is a best practice for creating robust and maintainable UI tests.
+-   **UI Tests (Android)**: Also in `app/src/androidTest`, these confirm that the UI correctly reflects the state from the ViewModel and that user interactions work as expected. We use `testTag`s to identify UI components.
 
 ## Setup and Running the App
 
