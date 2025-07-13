@@ -17,18 +17,18 @@ The project was designed to not only meet the core requirements but also to show
 A key architectural decision was to structure the application using a **package-by-feature** approach.
 
 -   **`stepcounter` Feature Package**: This is a self-contained directory that holds all UI, domain, and data logic specific to the step counting feature. This makes the feature easy to understand, maintain, and test in isolation. If a new feature (e.g., "user profile" or "settings") were added, it would get its own package, minimizing dependencies and cognitive load.
--   **`core` Package**: This is a shared directory containing code that would be used by multiple features in a larger app. This includes the Room database definition, DAOs, Hilt dependency injection modules, and shared utility classes (like `TestTags`). This structure prevents code duplication and promotes consistency.
+-   **`core` Package**: This is a shared directory containing code that would be used by multiple features in a larger app. This includes the Room database definition, DAOs, Hilt dependency injection modules, and shared utility classes (like `TestTags`).
 
 This architecture demonstrates a forward-thinking approach, building for a future where the app might grow in complexity.
 
 ## Technology Stack
 
 -   **UI**:Jetpack Compose with a single-activity architecture.
--   **Async tasks**: Kotlin Coroutines and Flowfor all background work, ensuring a responsive UI and efficient resource management.
--   **Dependency Injection**: Hilt for robust, boilerplate-free dependency management.
--   **Storage**: Room Database for storing structured, time-series data.
+-   **Async tasks**: Kotlin Coroutines and Flow for all background work.
+-   **Dependency Injection**: Hilt.
+-   **Storage**: Room Database.
 
-## Testing Strategy
+## Testing
 
 The project includes a multi-layered and comprehensive testing strategy to ensure code quality and correctness:
 
