@@ -23,10 +23,10 @@ This architecture demonstrates a forward-thinking approach, building for a futur
 
 ## Technology Stack
 
--   **UI**:[Jetpack Compose] with a single-activity architecture.
--   **Asynchronicity**: [Kotlin Coroutines] and [Flow]for all background work, ensuring a responsive UI and efficient resource management.
--   **Dependency Injection**: [Hilt] for robust, boilerplate-free dependency management.
--   **Persistence**: [Room Database] for storing structured, time-series data.
+-   **UI**:Jetpack Compose with a single-activity architecture.
+-   **Async tasks**: Kotlin Coroutines and Flowfor all background work, ensuring a responsive UI and efficient resource management.
+-   **Dependency Injection**: Hilt for robust, boilerplate-free dependency management.
+-   **Storage**: Room Database for storing structured, time-series data.
 
 ## Testing Strategy
 
