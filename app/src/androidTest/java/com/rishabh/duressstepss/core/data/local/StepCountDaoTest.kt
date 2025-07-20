@@ -21,9 +21,6 @@ import org.junit.runner.RunWith
 @SmallTest
 class StepCountDaoTest {
 
-    @get:Rule
-    var instantTaskExecutorRule = InstantTaskExecutorRule()
-
     private lateinit var database: AppDatabase
     private lateinit var dao: StepCountDao
 
