@@ -35,3 +35,4 @@ google-services.json
 
 # Mac OS metadata file
 .DS_Store
+/.env
